@@ -44,5 +44,39 @@ The project is organized into several packages, each containing classes responsi
 
 ## How to Run
 1. **Clone the Repository:**
-   ```sh
+```sh```
+```
    git clone https://github.com/yourusername/OnlineStoreManagementSystem.git
+```
+2. **Navigate to the Project Directory:**
+```sh```
+```
+   cd OnlineStoreManagementSystem
+
+```
+3. **Compile the Project:**
+```sh```
+```
+  javac -d bin src/**/*.java
+
+```
+4. **Run the Application:**
+```sh```
+```
+  java -cp bin org.Masri.SimpleRest.Main
+```
+# Usage
+Upon running the application, the user will be presented with the main menu. The options available in the main menu include:
+- Sign Up: Create a new user account.
+- Sign In: Log into an existing user account.
+- Product Catalog: View available products and add them to the cart.
+- My Orders: View the user's past orders.
+- Settings: Update account settings such as email and password.
+- Customer List: View a list of all registered users (available only for admins).
+- Check Out: Complete the purchase of items in the cart.
+# Project Details
+1. Programming Language: Java
+2. Design Patterns: Singleton, Factory
+3. Principles: OOP, SOLID principles
+4. Collections Freamwork : Lists ,Maps ect 
+   
